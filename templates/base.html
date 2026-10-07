@@ -3,16 +3,13 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Bosco Warehouse{% endblock %}</title>
+    <title>{% block title %}Настільні ігри{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'boolib_app/css/style.css' %}">
 </head>
 <body>
-
     {% include 'partials/menu.html' %}
-
     <main>
-        {% block content %}
-        {% endblock %}
+        {% block content %}{% endblock %}
     </main>
-
 </body>
 </html>
