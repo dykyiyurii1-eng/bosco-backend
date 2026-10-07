@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
-привіт
-{% block title %}Товари{% endblock %}
+{% load boolib_app_extras %}
 
 {% block content %}
 <h1>Настільні ігри</h1>
@@ -20,7 +19,7 @@
         <td>{{ product.name }}</td>
         <td>{{ product.genre }}</td>
         <td>{{ product.min_players }}-{{ product.max_players }}</td>
-        <td>{{ product.price }}</td>
+        <td>{{ product.price| uah }}</td>
     </tr>
     {% empty %}
     <tr>
