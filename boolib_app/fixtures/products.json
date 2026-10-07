@@ -1,0 +1,112 @@
+[
+  {
+    "model": "boolib_app.product",
+    "pk": 1,
+    "fields": {
+      "name": "Monopoly",
+      "genre": "Economic",
+      "min_players": 2,
+      "max_players": 6,
+      "price": 899
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 2,
+    "fields": {
+      "name": "Catan",
+      "genre": "Strategy",
+      "min_players": 3,
+      "max_players": 4,
+      "price": 1299
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 3,
+    "fields": {
+      "name": "Carcassonne",
+      "genre": "Tile-laying",
+      "min_players": 2,
+      "max_players": 5,
+      "price": 999
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 4,
+    "fields": {
+      "name": "Ticket to Ride",
+      "genre": "Strategy",
+      "min_players": 2,
+      "max_players": 5,
+      "price": 1499
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 5,
+    "fields": {
+      "name": "Pandemic",
+      "genre": "Cooperative",
+      "min_players": 2,
+      "max_players": 4,
+      "price": 1199
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 6,
+    "fields": {
+      "name": "Dixit",
+      "genre": "Party",
+      "min_players": 3,
+      "max_players": 6,
+      "price": 899
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 7,
+    "fields": {
+      "name": "Codenames",
+      "genre": "Party",
+      "min_players": 4,
+      "max_players": 8,
+      "price": 799
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 8,
+    "fields": {
+      "name": "Splendor",
+      "genre": "Strategy",
+      "min_players": 2,
+      "max_players": 4,
+      "price": 1099
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 9,
+    "fields": {
+      "name": "Azul",
+      "genre": "Abstract",
+      "min_players": 2,
+      "max_players": 4,
+      "price": 999
+    }
+  },
+  {
+    "model": "boolib_app.product",
+    "pk": 10,
+    "fields": {
+      "name": "7 Wonders",
+      "genre": "Card",
+      "min_players": 3,
+      "max_players": 7,
+      "price": 1399
+    }
+  }
+]
