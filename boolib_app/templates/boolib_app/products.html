@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Список товарів</title>
-</head>
-<body>
+{% extends 'base.html' %}
+привіт
+{% block title %}Товари{% endblock %}
+
+{% block content %}
 <h1>Настільні ігри</h1>
 
-
 <table border="1">
+
     <tr>
         <th>#</th>
         <th>Назва</th>
@@ -29,6 +28,4 @@
     </tr>
     {% endfor %}
 </table>
-
-</body>
-</html>
+{% endblock %}
