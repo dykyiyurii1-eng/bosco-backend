@@ -2,3 +2,8 @@
 <nav>
     <a href="{% url 'product_list' %}">Товари ({% product_count %})</a>
 </nav>
+{% load boolib_app_extras %}
+<nav>
+    <a href="{% url 'product_list' %}">Товари ({% product_count %})</a>
+    <a href="{% url 'product_add' %}">Додати товар</a>
+</nav>

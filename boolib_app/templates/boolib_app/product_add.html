@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Додати товар{% endblock %}
+
+{% block content %}
+<h1>Додати товар</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+    <p>
+        <label>Назва:
+            <input type="text" name="name" required>
+        </label>
+    </p>
+    <p>
+        <label>Жанр:
+            <input type="text" name="genre" required>
+        </label>
+    </p>
+    <p>
+        <label>Мін. гравців:
+            <input type="number" name="min_players" required>
+        </label>
+    </p>
+    <p>
+        <label>Макс. гравців:
+            <input type="number" name="max_players" required>
+        </label>
+    </p>
+    <p>
+        <label>Ціна:
+            <input type="number" name="price" required>
+        </label>
+    </p>
+
+    <button type="submit">Зберегти</button>
+</form>
+{% endblock %}
